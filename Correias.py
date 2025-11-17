@@ -1,5 +1,3 @@
-import tkinter
-from tkinter import messagebox
 import json
 import sys
 from math import sin, cos, pi, ceil

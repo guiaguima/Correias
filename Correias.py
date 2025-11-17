@@ -1,7 +1,18 @@
+import tkinter
+from tkinter import messagebox
 import json
 import sys
 from math import sin, cos, pi, ceil
 import pandas as pd
+
+root = tkinter.Tk()
+root.withdraw()
+
+f = open('ENTRADA.json')
+data = json.load(f)
+correia = data['correia']
+
+locals().update(correia)
 
 list_angulorep = [0,5,10,15,20,25,30]
 list_largura = [16,20,24,30,36,42,48,54,60,72,84]

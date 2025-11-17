@@ -3,9 +3,6 @@ import sys
 from math import sin, cos, pi, ceil
 import pandas as pd
 
-root = tkinter.Tk()
-root.withdraw()
-
 f = open('ENTRADA.json')
 data = json.load(f)
 correia = data['correia']
